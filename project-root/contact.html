@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio | Contact</title>
+  <link rel="stylesheet" href="css/style.css ">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">MyPortfolio</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button id="menu-toggle">☰</button>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h1>Contact Me</h1>
+    <p>If you’d like to collaborate or just say hello, fill out the form below or reach me on social media.</p>
+
+    <form action="mailto:henyastephen.com" method="post" enctype="text/plain" name="contactForm" onsubmit="return validateForm()">
+      <label for="name">Name:</label>
+      <input type="text" name="name" placeholder="John Doe"required>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="johndoe@example.com"required>
+
+      <label for="message">Message:</label>
+      <textarea name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+   <footer>
+      <a href="https://github.com/stephen-henya" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/stephen-henya" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/stevoinshort" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com/stevoinshort" target="_blank"><i class="fab fa-instagram"></i></a>
+   </footer>
+   <footer>
+      <p>© 2025 Stephen Thiong'o Henya. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
